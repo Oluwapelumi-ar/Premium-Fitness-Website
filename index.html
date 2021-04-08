@@ -5,15 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="/stylesheet/style.css">
+    <link rel="stylesheet" href="stylesheet/style.css"> 
+    <!-- <script src="script.js" defer></script> -->
     <title>Premium Fitness</title>
   </head>
   <body>
     <!-- Header -->
-      <header class="row">
+        <header>
           <div class="covid-info ">
             <p>Get the latest on our COVID-19 response</p>
-          </div>
+          </div>            
           <div class="main-header container">
             <nav class="navbar  justify-content-between">
                 <a class="navbar-brand brand-name">Premium Fitness</a>
@@ -60,9 +61,9 @@
           <h1><span class="personalized">PERSONALIZED</span><br><span class="coaching">COACHING</span></h1>
           <p>One size does not fit all.So we provide you with a <br> personal coach that focuses the challenge on you.<br>Choose below to see how it works.</p>
           <h3>I'M FOCUSED ON</h3><br>
-          <div class="coach-button">
-              <button type="button">LOSING WEIGHT</button>
-              <button type="button">GETTING FIT</button>
+          <div class="coachbutton">
+              <button type="button" class="coach-button" >LOSING WEIGHT</button>
+              <button type="button" class="coach-button">GETTING FIT</button>
           </div>
         </div>
       </section>
@@ -116,7 +117,17 @@
           </div>
         </div>
       </div>
+
+      <!-- Subscription -->
+      <div class="suscribe">
+        <h3>Suscribe to get our daily tips and motivation</h3>
+        <form>
+          <input type="email" placeholder="Enter Your Email Address">
+          <input type="submit" placeholder="Submit" id="submitButton">
+        </form><br>
+      </div>
   </body>
+  <!-- Footer -->
   <footer>
     <div class="footer">
       <a class="navbar-brand brand-name">Premium Fitness</a>
@@ -125,7 +136,7 @@
         <li>Terms of Service</li>
         <li>Privacy Policy</li>
       </ul>
-      <p>2020 Premium Fitness.All rights Reserved.</p>
+      <p>&copy;2020 Premium Fitness.All rights Reserved.</p>
     </div>
   </footer>
   </html>
