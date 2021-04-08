@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+/*--------------------- Header----------------- */
+.covid-info{
+  width:100%;
+  height:20px;
+  background-color: black;
+  color:white;
+  font-family: 'Questrial', sans-serif;
+  font-size:small;
+  text-align: center;
+}
+.main-header {
+background-color: whhite;
+height: 50px;
+}
+.loginButton{
+  background-color: blue;
+  border:none;
+  color:white;
+  margin-top: -15px;
+  margin-left: 20px;
+}
+.login {
+  margin-top: -20px;
+}
+.brand-name{
+  font-family: 'Italianno', cursive;
+  font-size: 2.5rem;
+  margin-top: -20px;
+}
+/*---------------------   Banner ----------------- */
+.banner {
+  width:100%;
+  background-image: url(/images/fitness-banner-image.jpg);
+  height: 500px;
+  background-position: center;
+}
+.banner-text{
+  width:50%;
+  margin:0 auto;
+  text-align: center;
+  padding-top: 150px;
+  font-family: 'Questrial', sans-serif;
+  color:white;
+}
+.banner-text h2 {
+  font-size: 3.9rem;
+  font-weight:bolder
+}
+.banner-text p {
+  font-size: 1.2rem;
+}
+/*---------------------  Second Section ----------------- */
+.second-section{
+  width: 100%;
+  height: 600px;
+  display: flex;
+}
+.second-img img{
+  height:500px;
+}
+.circle {
+  margin-left: 250px;
+  margin-top: -40px;
+}
+.circle-text1 {
+  font-family: 'Questrial', sans-serif;
+  font-size:1.6rem;
+}
+.circle-text2 {
+  font-family: 'Questrial', sans-serif;
+  font-size:3rem;
+}
+.circle-text3 {
+  font-family: 'Questrial', sans-serif;
+  font-size:8rem;
+}
+.circle-text4 {
+  font-family: 'Questrial', sans-serif;
+  font-size:8rem;
+}
+.second-section-text {
+  width:80%;
+  margin:0 auto;
+  text-align: center;
+  color: black;
+}
+.bold-text{
+  font-weight: bold;
+}
+.second-section-text p {
+  font-size: small;
+}
+/* Personalized Coaching Section  */
+.coaching {
+  background-image: url(/images/bend-stretch.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1250px;
+  height: 500px;
+  
+}
+ .coaching-text{
+  padding-top: 100px;
+  padding-left: 59px;
+  font-family: 'Questrial', sans-serif;
+  color:black;
+} 
+.personalized {
+  font-weight: 500;
+}
+.coaching {
+  font-weight: 900;
+}
+.coaching-text p {
+  color:rgba(34, 32, 32, 0.822);
+}
+.coaching-text h3 {
+  color:rgb(93, 93, 184);
+  
+}
+.coaching-text button {
+  border:4px;
+  background-color:rgb(93, 93, 184);
+  color:white;
+  padding:2px;
+}
+/* Results */
+.results {
+  height:700px;
+  width:100%;
+  background-color: white;
+}
+.results-first-text{
+  text-align: center;
+  margin-top: 10px;
+}
+.flex {
+  display: flex;
+}
+.results-second-text {
+  margin-left: 30px;
+  margin-top:150px;
+}
+/* Your Coach */
+.your-coach {
+  height:400px;
+  width:100%;
+  background-image: url(/images/dark-image.jfif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color:white;
+}
+.your-coach p,h4{
+  text-align: center;
+  padding-top: 24px;
+}
+
+.cards{
+  width: 85%;
+  margin: 0 auto;
+  position: relative;
+  top: -100px;
+}
+.card{
+  margin:4px;
+}
+
+/* Footer */
+footer{
+  width:100%;
+  height:200px;
+  background-color: black;
+  color:white;
+}
+.footer {
+  text-align: center;
+}
+ul{
+  list-style: none;
+}
+li {
+  margin: 4px;
+}
